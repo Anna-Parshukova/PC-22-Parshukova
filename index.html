@@ -178,26 +178,6 @@
             </ul>
         </section>
 
-        <!-- <section id="about" class="about">
-            <h2 class="title">ПРО НАС</h2>
-            <div class="about-container">
-                <div class="about-text">
-                    <p>
-                        Це місце, де кожен знаходить свій ідеальний смак! Історія почалася з простого чизкейка,
-                        а перетворилася на справжню магію десертів, випічки та особливої атмосфери.
-                        Тут кожен гість відчуває себе особливим, а кожен смаколик — це не просто страва,
-                        а справжнє враження. Можна насолодитися затишною атмосферою на місці або замовити доставку
-                        додому чи в офіс. Тут не просто готують — тут створюють особливі моменти щодня! ✨✨✨
-                    </p>
-                </div>
-                <div class="about-media">
-                    <video class="about-video" poster="./images/about.jpg" autoplay muted loop >
-                        <source src="./images/video1.mp4"  type="video/mp4">
-                        Ваш браузер не підтримує відео.
-                    </video>
-                </div>
-            </div>
-        </section> -->
         <section id="about" class="about">
             <div class="video-background">
                 <video autoplay muted loop playsinline>
@@ -205,7 +185,6 @@
                     Ваш браузер не підтримує відео.
                 </video>
             </div>
-
 
             <h2 class="title">ПРО НАС</h2>
             <div class="about-container">
@@ -315,31 +294,25 @@
                     </a>
                 </address>
 
-                <!-- Кнопка-тригер -->
+
                 <input type="checkbox" id="modal-toggle" class="modal-toggle" hidden>
                 <label for="modal-toggle" class="contact-button btn-like">Зв’язатися з нами</label>
 
-                <!-- Модальне вікно -->
                 <div class="modal">
                     <div class="modal-content">
-                        <!-- Кнопка закриття -->
                         <label for="modal-toggle" class="close-btn">&times;</label>
 
-                        <!-- Форма зворотного зв’язку -->
                         <form class="form-feedback">
                             <fieldset>
                                 <legend>ЗВ’ЯЖІТЬСЯ З НАМИ</legend>
 
-                                <!-- Ім’я -->
                                 <label for="name">Ім’я:</label>
                                 <input type="text" id="name" name="name" placeholder="Введіть ваше ім’я" required>
 
-                                <!-- Email -->
                                 <label for="email">Email:</label>
                                 <input type="email" id="email" name="email" placeholder="Введіть ваш email" required>
 
-                                <!-- Вибір часу зв’язку (radio) -->
-                                <p>Коли вам зручно отримати відповідь?</p>
+                                <p class="when">Коли вам зручно отримати відповідь?</p>
                                 <label>
                                     <input type="radio" name="contact-time" value="morning" required>
                                     Вранці
@@ -349,27 +322,23 @@
                                     Ввечері
                                 </label>
 
-                                <!-- Інтереси (checkbox) -->
-                                <p>Що вас цікавить?</p>
+                                <p class="when">Який саме торт вас цікавить?</p>
                                 <label>
                                     <input type="checkbox" name="interest" value="bread">
-                                    Хліб
+                                    Стандарт
                                 </label>
                                 <label>
                                     <input type="checkbox" name="interest" value="cake">
-                                    Торти
+                                    Преміум
                                 </label>
                                 <label>
                                     <input type="checkbox" name="interest" value="coffee">
-                                    Кава
+                                    VIP
                                 </label>
 
-                                <!-- Повідомлення -->
                                 <label for="message">Повідомлення:</label>
-                                <textarea id="message" name="message" placeholder="Напишіть ваше повідомлення"
-                                    required></textarea>
+                                <textarea id="message" name="message" placeholder="Напишіть ваше повідомлення"></textarea>
 
-                                <!-- Кнопка відправлення -->
                                 <button type="submit">Надіслати</button>
                             </fieldset>
                         </form>

@@ -820,6 +820,11 @@ details p {
     background-color: #fadee9;
 }
 
+.when{
+    font-weight: bold;
+    margin-top: 16px;
+}
+
 @media (max-width: 767px) {
     .title {
         font-weight: 400;
