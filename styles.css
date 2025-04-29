@@ -1,0 +1,1296 @@
+body {
+    font-family: "Geologica", sans-serif;
+    color: #5F0C65;
+    background-color: #F9FAF5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    display: block
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+/* HEADER */
+
+.header {
+    padding: 18px 80px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.logo-header {
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-link {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5F0C65;
+}
+
+.nav-link:hover {
+    color: #fadee9;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    background-color: #5F0C65;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.cart:hover {
+    background-color: #fadee9;
+}
+
+.cart-icon {
+    width: 39px;
+    height: 39px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle {
+    width: 650px;
+    height: 650px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(249, 250, 245, 0.85);
+    margin: 127px 0;
+    text-align: center;
+}
+
+
+.subtext {
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.main-button {
+    border: 1px solid #5f0c65;
+    border-radius: 45px;
+    width: 359px;
+    height: 84px;
+    background: #f9faf5;
+    font-family: "Geologica", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #5f0c65;
+}
+
+.main-button:hover {
+    background-color: #5f0c65;
+    color: #f9faf5;
+}
+
+
+/* CATEGORIES */
+
+.categories {
+    padding: 120px 80px;
+}
+
+.title {
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+.title-text {
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    max-width: 975px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: 47px;
+}
+
+.categories-cards {
+    display: flex;
+    gap: 88px;
+}
+
+.cards-item {
+    background-color: #fadee9;
+    border-radius: 10px;
+}
+
+.cards-p {
+    display: flex;
+}
+
+.cards-text {
+    padding: 23px 33px;
+    font-family: "Geologica", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.cards-icon {
+    margin-left: auto;
+    margin-right: 23px;
+}
+
+.categories-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 88px;
+    justify-content: center;
+}
+
+.cards-item {
+    background-color: #fadee9;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.cards-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.cards-p {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.cards-text {
+    padding: 23px 33px;
+    font-family: "Geologica", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+}
+
+.cards-icon {
+    margin-left: auto;
+    margin-right: 23px;
+}
+
+/* CAKE ORDER */
+
+.cake-order {
+    display: flex;
+    background-color: #5f0c65;
+}
+
+.cake-order-img {
+    margin-top: 374px;
+    max-width: 50%;
+    height: auto;
+}
+
+.cake-order-text {
+    text-align: center;
+}
+
+.cake-order-title {
+    font-family: "Geologica", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 127px;
+    margin-bottom: 20px;
+    color: #FADEE9;
+    margin-right: 80px;
+}
+
+.cake-order-text p {
+    font-family: "Geologica", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FADEE9;
+    margin-right: 80px;
+}
+
+.cake-order-button {
+    background-color: #f9faf5;
+    border: 1px solid #5f0c65;
+    border-radius: 45px;
+    width: 358px;
+    height: 83px;
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #5f0c65;
+    margin-right: 80px;
+}
+
+.cake-order-button:hover {
+    background-color: #5f0c65;
+    color: #f9faf5;
+}
+
+/* PRICING */
+
+.pricing {
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.pricing-card {
+    background: #f9faf5;
+    border: 2px solid #5F0C65;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 5px 20px rgba(164, 0, 205, 0.1);
+}
+
+.pricing-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5F0C65;
+}
+
+.pricing-button {
+    background-color: #5F0C65;
+    color: #f9faf5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.pricing-button:hover {
+    background-color: #FADEE9;
+}
+
+.cake-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+/* DESSERTS */
+
+
+.desserts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 115px;
+    row-gap: 70px;
+    padding: 120px 80px;
+    justify-content: center;
+}
+
+.desserts-title {
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.desserts-item {
+    flex-direction: column;
+}
+
+.desserts-img {
+    height: 372px;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.desserts-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.desserts-text {
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 23px;
+}
+
+/* HOW-ORDER */
+
+
+.how-order {
+    padding: 120px 20px;
+    background-color: #f9faf5;
+    text-align: center;
+}
+
+.how-order-list {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-order-item {
+    flex: 0 1 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.how-order-circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #fadee9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Geologica", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #5f0c65;
+    transition: transform 0.3s ease;
+}
+
+.how-order-circle:hover {
+    transform: scale(1.05);
+}
+
+.how-order-circle-h {
+    max-width: 140px;
+}
+
+.how-order-step {
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #5f0c65;
+    margin-top: 17px;
+}
+
+/* ABOUT */
+
+.about {
+    position: relative;
+    padding: 120px 80px;
+    color: #f9faf5;
+    text-align: center;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* затемнення */
+.about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    /* тут керуєш рівнем затемнення */
+    z-index: -1;
+}
+
+.about .title {
+    font-family: "Geologica", sans-serif;
+    font-size: 50px;
+    margin-bottom: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.about-text {
+    flex: 1 1 90%;
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #f9faf5;
+    text-align: justify;
+}
+
+
+/* QUESTIONS */
+
+.questions {
+    padding: 120px 80px;
+}
+
+.title-questions {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+details {
+    border: 2px solid #5f0c65;
+    border-radius: 10px;
+    padding: 0 1rem;
+    background: #F9FAF5;
+    margin: 1.5rem auto;
+    max-width: 953px;
+}
+
+summary {
+    padding: 1rem 2em 1rem 0;
+    font-size: 1.5rem;
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    color: #5f0c65;
+    cursor: pointer;
+    position: relative;
+}
+
+summary::marker {
+    content: none;
+}
+
+summary::before,
+summary::after {
+    content: '';
+    width: 0.75em;
+    height: 0;
+    border-bottom: 2px solid #5f0c65;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+summary::after {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+}
+
+details[open] summary::after {
+    transform: rotate(0deg);
+}
+
+details p {
+    font-size: 1.125rem;
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    margin: 0 0 1rem;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 120px 80px;
+    background-color: #5f0c65;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logo-footer a {
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #f9faf5;
+    text-decoration: none;
+}
+
+.footer-text {
+    font-family: "Geologica", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #f9faf5;
+    margin-top: 15px;
+}
+
+.social-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #f9faf5;
+    margin-top: 20px;
+}
+
+.social-media {
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-media-list {
+    border-radius: 100%;
+    background-color: #fadee9;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.social-media-list:hover {
+    background-color: #f9faf5;
+}
+
+.social-media-logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-nav-list {
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-nav-items {
+    font-family: "Geologica", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #f9faf5;
+}
+
+.contacts-address a {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: #f9faf5;
+    display: block;
+    max-width: 204px;
+    font-style: normal;
+
+}
+
+.contacts-link {
+    margin-bottom: 25px;
+}
+
+.address-link {
+    margin-bottom: 25px;
+}
+
+/* Кнопка */
+.btn-like {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #f9faf5;
+    color: #5f0c65;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Geologica", sans-serif;
+    text-decoration: none;
+}
+
+.btn-like:hover {
+    background-color: #fadee9;
+}
+
+/* Модальне вікно - приховане за замовчуванням */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+/* Контейнер форми */
+.modal-content {
+    background-color: #f9faf5;
+    padding: 32px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+}
+
+/* Кнопка закриття */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #5f0c65;
+    cursor: pointer;
+}
+
+.form-feedback legend {
+    text-align: center;
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+/* Відображення модального вікна, коли checkbox активний */
+#modal-toggle:checked~.modal {
+    display: flex;
+}
+
+/* Стилі форми */
+.form-feedback fieldset {
+    border: none;
+    padding: 0;
+}
+
+.form-feedback label {
+    display: block;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-feedback input,
+.form-feedback select,
+.form-feedback textarea {
+    width: 96.5%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #5f0c65;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.form-feedback input[type="checkbox"],
+.form-feedback input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+.form-feedback textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.form-feedback button[type="submit"] {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 24px;
+    background-color: #5f0c65;
+    color: #f9faf5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+}
+
+.form-feedback button[type="submit"]:hover {
+    background-color: #fadee9;
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    /* HEADER */
+
+    .header {
+        padding: 15px 10px;
+    }
+
+    .logo-header {
+        font-size: 32px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+
+
+    /* HERO     */
+
+    .circle {
+        width: 260px;
+        height: 260px;
+    }
+
+
+    .subtext {
+        font-size: 28px;
+        padding-bottom: 18px;
+        font-family: "Georgia", sans-serif;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    .main-button {
+        width: 138px;
+        height: 32px;
+        font-size: 15px;
+    }
+
+    /* CATEGORIES */
+
+    .categories {
+        padding: 28px 10px;
+    }
+
+    .title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .title-text {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .categories-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding: 0 10px;
+        align-items: center;
+    }
+
+    .cards-item {
+        max-width: 200px;
+    }
+
+    .cards-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+        display: block;
+    }
+
+    .cards-text {
+        font-size: 12px;
+        padding: 5px 15px;
+        margin: 0;
+    }
+
+    .cards-icon {
+        width: 16px;
+        height: 16px;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+
+    /* CAKE ORDER         */
+
+    .cake-order {
+        display: flex;
+        flex-direction: column;
+        padding-top: 28px;
+    }
+
+    .cake-order-img {
+        max-width: 80%;
+        margin-top: 20px;
+        order: 2;
+    }
+
+    .cake-order-text {
+        order: 1;
+        max-width: 425px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .cake-order-title {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .cake-order-text p {
+        font-size: 12px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .cake-order-button {
+        width: 180px;
+        height: 42px;
+        font-size: 12px;
+        margin: 0 auto;
+
+    }
+
+    /* DESSERTS */
+
+    .desserts {
+        row-gap: 17px;
+        padding: 28px 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desserts-title {
+        font-size: 20px;
+    }
+
+    .desserts-img {
+        height: 220px;
+    }
+
+    .desserts-text {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+
+
+    /* HOW ORDER */
+
+
+    .how-order {
+        padding: 28px 75px;
+    }
+
+    .how-order-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 0;
+    }
+
+    .how-order-item {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .how-order-circle {
+        width: 180px;
+        height: 180px;
+        font-size: 20px;
+    }
+
+    .how-order-step {
+        font-size: 18px;
+    }
+
+    /* ABOUT */
+
+    .about {
+        padding: 28px 24px;
+    }
+
+    .about .title {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-text {
+        font-size: 12px;
+        line-height: 1.6;
+        letter-spacing: 0.04em;
+        text-align: justify;
+    }
+
+    /* QUESTIONS */
+
+
+    .questions {
+        padding: 28px 10px;
+    }
+
+    .title-questions {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    summary {
+        font-size: 13px;
+    }
+
+    details p {
+        font-size: 13px;
+    }
+
+    summary::before,
+    summary::after {
+        width: 1.5em;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        padding: 28px 60px;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .logo-footer a {
+        font-size: 28px;
+    }
+
+    .footer-text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .social-title {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .social-media {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .social-media-list {
+        width: 36px;
+        height: 36px;
+        margin-right: 8px;
+    }
+
+    .social-media-logo img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-nav-list {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .footer-nav-items {
+        font-size: 18px;
+    }
+
+    .contacts-address a {
+        font-size: 16px;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .contacts-link {
+        margin-bottom: 15px;
+    }
+
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    #menu__toggle {
+        opacity: 0;
+        position: absolute;
+    }
+
+    .menu__btn {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #5F0C65;
+        transition-duration: 0.25s;
+    }
+
+    .menu__btn>span::before {
+        content: '';
+        top: -8px;
+    }
+
+    .menu__btn>span::after {
+        content: '';
+        top: 8px;
+    }
+
+    #menu__toggle:checked~.menu__btn>span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked~.menu__btn>span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #menu__toggle:checked~.menu__btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        right: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        background-color: #FAF5F9;
+        box-shadow: -1px 0px 6px rgba(0, 0, 0, 0.2);
+        transition: right 0.25s ease;
+        z-index: 2;
+    }
+
+    #menu__toggle:checked~.menu__box {
+        visibility: visible;
+        right: 0;
+    }
+
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #5F0C65;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        transition-duration: 0.25s;
+    }
+
+    .menu__item:hover {
+        background-color: #F1DDE6;
+    }
+
+    .pricing {
+        padding: 28px 10px;
+    }
+
+    .pricing .title {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .pricing-cards {
+        margin-top: 0;
+    }
+
+    .pricing-card h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .price {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .modal-content {
+        padding: 18px;
+        max-width: 300px;
+    }
+
+    .form-feedback legend {
+        font-size: 14px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .form-feedback label {
+        font-size: 12px;
+        margin-top: 8px;
+        text-align: left;
+    }
+
+    .form-feedback input,
+    .form-feedback select,
+    .form-feedback textarea {
+        width: 95%;
+        padding: 6px;
+        margin-top: 3px;
+        font-size: 12px;
+    }
+
+    .form-feedback input[type="checkbox"],
+    .form-feedback input[type="radio"] {
+        width: auto;
+        margin-right: 6px;
+        vertical-align: middle;
+    }
+
+    .form-feedback textarea {
+        min-height: 60px;
+    }
+
+    .form-feedback button[type="submit"] {
+        margin-top: 8px;
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .close-btn {
+        font-size: 20px;
+        top: 8px;
+        right: 12px;
+    }
+
+}
