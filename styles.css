@@ -378,7 +378,9 @@ h6 {
     text-align: center;
     width: 100%;
 }
-
+.desserts-title strong{
+    font-weight: 400;
+}
 .desserts-item {
     flex-direction: column;
 }
