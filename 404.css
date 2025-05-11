@@ -1,0 +1,153 @@
+
+.error-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.error-title {
+    font-size: 100px;
+    color: #5F0C65;
+}
+
+.error-text {
+    font-size: 24px;
+}
+
+.error-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5F0C65;
+    color: #f9faf5;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.error-link:hover {
+    background-color: #5F0C65;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 18px 80px;
+}
+
+.logo-header {
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-link {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5F0C65;
+}
+
+.nav-link:hover {
+    color: #fadee9;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    background-color: #5F0C65;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.cart:hover {
+    background-color: #fadee9;
+}
+
+.cart-icon {
+    width: 39px;
+    height: 39px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .navigation {
+        padding: 18px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-header {
+        font-size: 28px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    .cart {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cart-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .hamburger-menu {
+        display: block;
+        background-color: #5F0C65;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .error-title {
+        font-size: 60px;
+    }
+
+    .error-text {
+        font-size: 20px;
+    }
+
+    .error-link {
+        padding: 8px 16px;
+        font-size: 18px;
+    }
+}
