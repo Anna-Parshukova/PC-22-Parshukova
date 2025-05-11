@@ -4,7 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Puff & Stuff у Львові — смачні чизкейки, випічка та торти на замовлення. Вибір десертів на будь-який смак для свят та особливих подій. Замовте сьогодні!">
+    <title>Чизкейки, випічка, торти на замовлення — Puff & Stuff Львів</title>
+    
+    <meta property="og:title" content="Чизкейки, випічка, торти на замовлення — Puff & Stuff Львів" />
+    <meta property="og:description" content="Puff & Stuff у Львові — смачні чизкейки, випічка та торти на замовлення. Вибір десертів на будь-який смак для свят та особливих подій. Замовте сьогодні!" />
+    <meta property="og:image" content="./images/cake2.jpg" />
+    <meta property="og:url" content="https://anna-parshukova.github.io/PC-22-Parshukova/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Puff & Stuff" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -180,12 +189,11 @@
 
         <section id="about" class="about">
             <div class="video-background">
-                <video autoplay muted loop playsinline>
+                <video poster="./images/about.jpg" autoplay muted loop playsinline>
                     <source src="./images/video1.mp4" type="video/mp4">
                     Ваш браузер не підтримує відео.
                 </video>
             </div>
-
             <h2 class="title">ПРО НАС</h2>
             <div class="about-container">
                 <p class="about-text">
@@ -297,21 +305,16 @@
 
                 <input type="checkbox" id="modal-toggle" class="modal-toggle" hidden>
                 <label for="modal-toggle" class="contact-button btn-like">Зв’язатися з нами</label>
-
                 <div class="modal">
                     <div class="modal-content">
                         <label for="modal-toggle" class="close-btn">&times;</label>
-
                         <form class="form-feedback">
                             <fieldset>
                                 <legend>ЗВ’ЯЖІТЬСЯ З НАМИ</legend>
-
                                 <label for="name">Ім’я:</label>
                                 <input type="text" id="name" name="name" placeholder="Введіть ваше ім’я" required>
-
                                 <label for="email">Email:</label>
                                 <input type="email" id="email" name="email" placeholder="Введіть ваш email" required>
-
                                 <p class="when">Коли вам зручно отримати відповідь?</p>
                                 <label>
                                     <input type="radio" name="contact-time" value="morning" required>
@@ -321,24 +324,21 @@
                                     <input type="radio" name="contact-time" value="evening">
                                     Ввечері
                                 </label>
-
                                 <p class="when">Який саме торт вас цікавить?</p>
                                 <label>
-                                    <input type="checkbox" name="interest" value="bread">
+                                    <input type="checkbox" name="interest" value="standart">
                                     Стандарт
                                 </label>
                                 <label>
-                                    <input type="checkbox" name="interest" value="cake">
+                                    <input type="checkbox" name="interest" value="premium">
                                     Преміум
                                 </label>
                                 <label>
-                                    <input type="checkbox" name="interest" value="coffee">
+                                    <input type="checkbox" name="interest" value="vip">
                                     VIP
                                 </label>
-
                                 <label for="message">Повідомлення:</label>
                                 <textarea id="message" name="message" placeholder="Напишіть ваше повідомлення"></textarea>
-
                                 <button type="submit">Надіслати</button>
                             </fieldset>
                         </form>
