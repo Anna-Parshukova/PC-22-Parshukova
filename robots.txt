@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /search.html
-Sitemap: https://anna-parshukova.github.io/PC-22-Parshukova/sitemap.xml
+Disallow: /
